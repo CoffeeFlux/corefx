@@ -10,7 +10,7 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using Xunit;
 
-[assembly:TypeForwardedTo(typeof(string))]
+[assembly: TypeForwardedTo(typeof(string))]
 [assembly: TypeForwardedTo(typeof(TypeInForwardedAssembly))]
 
 namespace System.Reflection.Tests
